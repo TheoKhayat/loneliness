@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herd Up 🐌</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2162/2162122.png" type="image/png">
+  <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/2162/2162122.png">
+  <link rel="image_src" href="https://cdn-icons-png.flaticon.com/512/2162/2162122.png">
+</head>
+<body>
+  <h1>You're a loser!</h1>
+  <p>(or are heading towards being one soon...)</p>
+  <h4>Help us help you 🫶</h4>
+  <form onsubmit="alert('Response NOT recorded! Seriously we do not care...yet ;)'); location.reload(); return false;">
+    <label>Name: <input type="text" name="name" required></label>
+    <br>
+    <label>I'm a:
+      <input type="radio" name="gender" value="boy" required> Boy
+      <input type="radio" name="gender" value="girl" required> Girl
+    </label>
+    <br>
+    <label>Zip Code: <input type="text" name="zip" required></label>
+    <br>
+    <label>Tell us about your schedule: <textarea name="schedule" placeholder="This helps us match you (also should probably be checkboxes eventually)"	required></textarea></label>
+    <br>
+    <label>Profile: <textarea name="profile" placeholder="A few words about what a new friend should know about you. Besides your first name, it's the only thing we'll share." required></textarea></label><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
